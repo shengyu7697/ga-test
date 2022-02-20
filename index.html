@@ -17,6 +17,10 @@
     <script>
       function button5OnClick() {
         console.log("Button5 click");
+        gtag('event', '按鈕點擊', {
+          'event_category': '一般',
+          'event_label': 'btn 5'
+        });
       }
     </script>
   </head>
