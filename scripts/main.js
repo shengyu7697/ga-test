@@ -36,3 +36,25 @@ if(!localStorage.getItem('name')) {
 myButton.onclick = function() {
   setUserName();
 }
+
+// button event
+
+let myButton1 = document.getElementById('btn1');
+let myButton2 = document.getElementById('btn2');
+let myButton3 = document.getElementById('btn3');
+
+myButton1.onclick = function() {
+  console.log("Button1 click");
+}
+
+myButton2.onclick = function() {
+  console.log("Button2 click");
+}
+
+myButton3.onclick = function() {
+  console.log("Button3 click");
+}
+
+function button4OnClick() {
+  console.log("Button4 click");
+}

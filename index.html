@@ -3,6 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>My test page</title>
+    <script>
+      function button5OnClick() {
+        console.log("Button5 click");
+      }
+    </script>
   </head>
   <body>
     <h1>Mozilla is cool</h1>
@@ -21,6 +26,11 @@
     <p>Read the <a href="https://www.mozilla.org/en-US/about/manifesto/">Mozilla Manifesto</a> to learn even more about the values and principles that guide the pursuit of our mission.</p>
 
     <button>Change user</button>
+    <button id=btn1>button 1</button>
+    <button id=btn2>button 2</button>
+    <button id=btn3>button 3</button>
+    <button onclick="button4OnClick();">button 4</button>
+    <button onclick="button5OnClick();">button 5</button>
     <script src="scripts/main.js"></script>
 
     <p><a href="https://developer.mozilla.org/zh-TW/docs/Learn/Getting_started_with_the_web/HTML_basics">參考教學</a></p>
