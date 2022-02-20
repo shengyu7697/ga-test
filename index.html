@@ -11,7 +11,10 @@
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', 'G-YK047JQ418');
+    //gtag('config', 'G-YK047JQ418');
+    gtag('config', 'G-YK047JQ418', {
+      'custom_map': {'dimension1': 'my_username'}
+    });
     </script>
 
     <script>
@@ -21,6 +24,7 @@
           'event_category': '一般',
           'event_label': 'btn 5'
         });
+        gtag('event', 'my_username_event', {'my_username': 'tom'});
       }
 
       function setup() {
